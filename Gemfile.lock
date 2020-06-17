@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    adsf (1.4.1)
+    adsf (1.4.3)
       rack (>= 1.0.0, < 3.0.0)
     builder (3.2.3)
     coderay (1.1.2)
@@ -80,7 +80,7 @@ GEM
     public_suffix (3.0.3)
     pygments.rb (1.2.1)
       multi_json (>= 1.0.0)
-    rack (2.0.6)
+    rack (2.2.3)
     rb-fchange (0.0.6)
       ffi
     rb-fsevent (0.10.3)
@@ -111,7 +111,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  adsf
+  adsf (>= 1.4.1)
   builder
   guard-livereload
   guard-nanoc
@@ -126,4 +126,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
