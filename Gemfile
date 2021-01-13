@@ -6,7 +6,7 @@ gem 'kramdown'
 gem 'guard-nanoc'
 gem 'guard-livereload'
 gem 'nokogiri'
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 gem 'pygments.rb'
 gem 'builder'
 gem 'rb-inotify', :require => false
