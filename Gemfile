@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'nanoc', '~> 4.0'
 gem 'adsf'
-gem 'kramdown'
+gem 'kramdown', '>= 2.3.1'
 gem 'guard-nanoc'
 gem 'guard-livereload'
 gem 'nokogiri'
