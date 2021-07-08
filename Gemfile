@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'nanoc', '~> 4.0'
+gem 'nanoc', '~> 4.11', '>= 4.11.0'
 gem 'adsf'
 gem 'kramdown'
-gem 'guard-nanoc'
+gem 'guard-nanoc', '>= 2.1.4'
 gem 'guard-livereload'
 gem 'nokogiri'
 gem 'redcarpet'
